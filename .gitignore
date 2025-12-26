@@ -1,0 +1,75 @@
+# =========================
+# OS & Editor files
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.user
+*.suo
+*.log
+*.tmp
+
+# =========================
+# Build output
+# =========================
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+.vscode/
+
+# =========================
+# NuGet
+# =========================
+packages/
+*.nupkg
+*.snupkg
+
+# =========================
+# Node / Vendor / Frontend libs
+# =========================
+node_modules/
+vendor/
+bower_components/
+
+# =========================
+# Static libraries (DO NOT TRACK)
+# =========================
+**/jquery*.js
+**/bootstrap*.js
+**/bootstrap*.css
+**/fontawesome-free/
+**/fonts/
+
+# =========================
+# Database
+# =========================
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# =========================
+# Published output
+# =========================
+publish/
+wwwroot/lib/
+
+# =========================
+# Environment / Secrets
+# =========================
+appsettings.json
+appsettings.Development.json
+.env
+
+# =========================
+# Logs
+# =========================
+logs/
